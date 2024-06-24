@@ -6,44 +6,98 @@
     <title>Ratcha Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    body,h1,h2,h3,h4,h5 {font-family: "Mitr","Raleway", sans-serif}
-  </style>
+    <style>
+      body,h1,h2,h3,h4,h5 {font-family: "Mitr","Raleway", sans-serif}
+    </style>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"/>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous">
+    </script> 
   </head>
+
   <body>
 
-    <div style="text-align: center; margin-right: 5px">
-      <a href="index.html">Home</a> | 
-      <a href="experience.html" style="margin-left: 5px">Experience</a> | 
-      <a href="contact.html" style="margin-left: 5px">Contact</a>
-    </div>  
+    <nav class="navbar" style="background-color: rgb(238, 238, 238);">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" style="color: rgb(0, 0, 0);" href="index.html">
+          <img src="./images/logo.jpg" alt="Logo" width="35" height="35" class="d-inline-block align-text-center rounded-4" >
+          RB Portfolio
+        </a>
 
-    <h1 class="font-center-header">My Portfolio</h1>
+        <div class="d-flex ">
+          <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link active d-none d-sm-block" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black d-none d-sm-block" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black d-none d-sm-block" href="experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black d-none d-sm-block" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
 
-    <img 
-      src="./images/myimage.jpg"  alt="Ratchaporn Picture" height="296px" width="222px"
-      style="margin-left: auto; display: block; margin-right: auto;">
-    </img>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
 
-    <h2 class="font-center">Ratchaporn Buanut</h2>
-    <h3 class="font-center-th">(รัชชาพร บัวนุช)</h3>
-    <p style="text-align: center">
-      รหัสนักศึกษา 660610790 ชื่อเล่น : ปลายฟ้า<br> ตอนนี้กำลังศึกษาอยู่คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยเชียงใหม่<br> ยินดีที่ได้รู้จักทุกคนนะคะヅ
-    </p>
+    <h1 class="font-center-header my-3">My Portfolio</h1>
 
-    <h4 class="subcenter">Skills</h4>
-
-    <div class=" border_black" >
-      <h5 class="font-center-th">Microsoft Office</h5>
-      <p style="text-align: center">สามารถใช้งานโปรแกรมพื้นฐาน เช่น Word Excel</p>
+    <div class="d-flex align-items-center container my-3 " style="max-width: 50rem;">
+      <div class="my-3">
+        <img 
+          src="./images/myimage.jpg"  alt="Ratchaporn Picture" height="222px" width="160px"
+          style="margin-left: auto; display:block; margin-right: auto;" class="rounded-5">
+        </img>
+      </div>  
+      <div class="mx-2">  
+        <h2 class="font-center">Ratchaporn Buanut</h2>
+        <h3 class="font-center-th">(รัชชาพร บัวนุช)</h3>
+        <p style="text-align: center">
+          รหัสนักศึกษา 660610790 ชื่อเล่น : ปลายฟ้า<br> ตอนนี้กำลังศึกษาอยู่คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยเชียงใหม่<br> ยินดีที่ได้รู้จักทุกคนนะคะヅ
+        </p>
+      </div>
     </div>
+   
 
-    <div class=" border_black" >
-      <h5 class="font-center-th">Coding</h5>
-      <p style="text-align: center">สามารถเขียนโปรแกรมอย่างง่ายได้โดยใช้ภาษา C C++</p>
+    <h4 class="subcenter my-4">Skills</h4>
+
+    <div class=" border_black  d-flex align-items-center" style="width:27rem;">
+      <img src="./images/skill1.jpg" alt="RBSkrill" height="100px" width="100px">
+      <div class="my-2">
+        <h5 class="font-center-th">Coding</h5>
+        <p style="text-align: center">สามารถเขียนโปรแกรมและเว็บไซต์อย่างง่ายได้โดยใช้ภาษา C C++ HTML และ CSS</p>
+      </div>
     </div>
-
-    
 
   </body>
 </html>
