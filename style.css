@@ -2,8 +2,8 @@ body{
     background-color: rgb(255, 243, 228);
 }
 
-p {
-    background-color: rgb(255, 251, 247);
+#p1 {
+    background-color: rgb(255, 249, 244);
     font-family: "Mitr";
 }
 
@@ -40,6 +40,13 @@ p {
     text-align: left;
     font-style: normal;
     font-size: large;
+}
+
+.font{
+    color: rgb(0, 0, 0);
+    text-align:start;
+    font-style: normal;
+    font-size: medium;
 }
 
 .border_black {
@@ -85,3 +92,4 @@ p {
     border-color: #fff #fff #ffc0ae;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
+
